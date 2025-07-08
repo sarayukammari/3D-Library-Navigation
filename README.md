@@ -1,10 +1,10 @@
-# 📚 3D Library Navigation System – React + Babylon.js + Flask
+# 3D Library Navigation System
 
 This is a web-based 3D virtual library built using React and Babylon.js. It allows users to explore the library in a first-person view and locate specific books by searching their names or IDs. When a book is selected, a realistic path is generated using A\* pathfinding logic from the reception desk to the bookshelf.
 
 ---
 
-## ✨ Features
+## Features
 
 * First-person POV navigation using WASD keys
 * Realistic layout: shelves, reception desk, windows, dome structure
@@ -15,7 +15,7 @@ This is a web-based 3D virtual library built using React and Babylon.js. It allo
 
 ---
 
-## 🪨 Tech Stack
+## Tech Stack
 
 * **Frontend:** React, Babylon.js
 * **Data Storage:** JSON (book and waypoint mappings)
@@ -23,15 +23,15 @@ This is a web-based 3D virtual library built using React and Babylon.js. It allo
 
 ---
 
-## 💡 Problem Solved
+## Problem Solved
 
 Large physical libraries can be hard to navigate. This system turns the process into an immersive digital experience where users can interactively walk through a 3D space and get guided to any book location in real-time.
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
-### 📦 Frontend (React + Babylon.js)
+### Run the following steps:
 
 ```bash
 git clone https://github.com/yourusername/3D-Library-Navigation.git
@@ -46,27 +46,9 @@ Visit the app at:
 http://localhost:5173
 ```
 
----
 
-### 🧠 Backend (Python + Flask for A\* pathfinding)
 
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-```
-
-Flask backend will run at:
-
-```
-http://localhost:5000
-```
-
----
-
-## 🖼️ Screenshots / GIF Preview
+## Screenshots / GIF Preview
 
 ![image](https://github.com/user-attachments/assets/9a696d59-af8e-4cb2-aa36-6db1e39e00f1)
 ![image](https://github.com/user-attachments/assets/4d0fa34d-90b0-49c6-8ba0-c0654fe2f015)
